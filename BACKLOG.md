@@ -11,6 +11,9 @@ you're actively working on in In Progress, add follow-ups to Todo.
 ## Done
 
 - [x] Initial scaffold seeded by the arena (AGENTS.md, BACKLOG.md, .gitignore, .env.example, .github/workflows/ci.yml)
+- [x] Implement the core feature from README.md — the smallest real version that works
+- [x] Add a health endpoint (e.g. `GET /health` returning `{"status":"ok"}`) that proves the app runs
+- [x] Add tests covering the core feature and the health endpoint
 
 ## In Progress
 
@@ -19,9 +22,9 @@ you're actively working on in In Progress, add follow-ups to Todo.
 ## Todo
 
 - [ ] Replace the `<!-- IDEA: ... -->` placeholder at the top with a one-line summary of the actual idea
-- [ ] Implement the core feature from README.md — the smallest real version that works
-- [ ] Add a health endpoint (e.g. `GET /health` returning `{"status":"ok"}`) that proves the app runs
-- [ ] Add tests covering the core feature and the health endpoint
+- [x] Implement the core feature from README.md — the smallest real version that works
+- [x] Add a health endpoint (e.g. `GET /health` returning `{"status":"ok"}`) that proves the app runs
+- [x] Add tests covering the core feature and the health endpoint
 - [ ] Make README.md reproduce how to run the project (commands + env vars, per .env.example)
 - [ ] Keep `.github/workflows/ci.yml` green on every push (it runs tests)
 - [ ] Add follow-up tasks here as the build progresses
